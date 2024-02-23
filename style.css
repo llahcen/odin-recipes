@@ -1,14 +1,16 @@
 body {
-    background-color: rgb(108, 255, 243);
+    background-color:lightsteelblue;
+    margin: 16px;
 }
 h1{
-    background-color: rgb(250, 250, 85);
+    background-color: whitesmoke;
+    margin: auto;
+    font-style: italic;
     text-align:center;
-    margin-top: auto;
+    padding: 8px;
     width:fit-content;
     border-style:solid;
-    border-radius: 1cm;
-
+    border-radius: 0.5cm;
     
 }
 h5{
@@ -47,9 +49,23 @@ div{
     text-align: center;
 }
 #button {
-    background-color: rgb(165, 247, 128);
+    background-color: rgb(255, 185, 79);
     font-size: medium;
     border-radius: 1cm;
+    display: block;
+    padding: 8px;
+   
+}
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color:beige;
+
+}
+li{
+    padding: 2px;
 }
 
 
