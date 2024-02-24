@@ -2,6 +2,23 @@ body {
     background-color:lightsteelblue;
     margin: 16px;
 }
+.media {
+    display: flex;
+    align-items: center;
+    border: solid;
+    flex-wrap: wrap;
+
+}
+.media ,
+.media-dscr {
+    justify-content: center;
+    flex: 1;
+    padding: 10px;
+    margin: auto;
+
+}
+
+
 h1{
     background-color: whitesmoke;
     margin: auto;
@@ -10,7 +27,7 @@ h1{
     padding: 8px;
     width:fit-content;
     border-style:solid;
-    border-radius: 0.5cm;
+    
     
 }
 h5{
@@ -20,7 +37,7 @@ h5{
 }
 div{
     text-align:center;
-    border: solid;
+   
 
 }
 
@@ -29,7 +46,7 @@ div{
     color: white;
     border-radius: 1cm;
     text-align: center;
-    border-style: solid;
+    
     border-color: black;
 
     
@@ -57,11 +74,10 @@ div{
    
 }
 .img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     border-style: solid;
     border-color:beige;
+    max-width: 100%;
+    flex :0 1 auto;
 
 }
 li{
